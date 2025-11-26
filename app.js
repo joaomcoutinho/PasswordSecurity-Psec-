@@ -147,7 +147,12 @@ let input_tamsenha = document.querySelector('#in')
 let user = document.querySelector('#initial')
 let valor = input_tamsenha.value 
 
+input_tamsenha.addEventListener('input', () => {
+    valor = input_tamsenha.value
+    user.setAttribute('maxlength', valor)
+})
 
+user.setAttribute('maxlength', valor)
 
 // CONFIGURAÇÃO DO EVENTO : 
 
@@ -160,7 +165,10 @@ btn.addEventListener('click', () => {
     // Tamanho da senha : 
 
     let valor = Number(input_tamsenha.value)
-   
+    
+    // 
+    user.removeAttribute('maxlength')
+
     user.setAttribute('maxlength', valor)
     // verificando se todos os checkboxs estão ativos :
     let verify = [...checks].every((c) => c.checked === true)
