@@ -18,10 +18,15 @@ Ideal para usuários finais, desenvolvedores e equipes que desejam gerar senhas 
 
 ✔️ Apresenta a força da senha
 --> Caso a combinação seja de apenas um tipo de caractere, a senha é FRACA
+
 Ex.: Selecionar apenas Letras
+
 --> Caso a combinação seja de apenas dois tipos de caracteres, a senha é MÉDIA
+
 Ex.: Selecionar apenas Números e Letras
+
 --> Caso a combinação seja de três tipos de caracteres, a senha é SEGURA
+
 Ex.: Selecionar Números, Letras e Símbolos
 
 ✔️ Cópia rápida da senha gerada
