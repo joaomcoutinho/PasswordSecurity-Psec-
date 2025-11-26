@@ -25,7 +25,9 @@ Ex.: Selecionar apenas Números e Letras
 Ex.: Selecionar Números, Letras e Símbolos
 
 ✔️ Cópia rápida da senha gerada
+
 ✔️ Interface simples e intuitiva
+
 ✔️ 100% offline
 
 # 🛠️ Tecnologias Utilizadas :
