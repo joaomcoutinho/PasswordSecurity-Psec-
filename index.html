@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PSec</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <main>
+        
+        <div class="form">
+            <h2>Gerador de Senhas<br>Seguras</h2>
+            <div class="user">
+                <label for="initial">Digite aqui a parte inicial da senha: </label>
+                <input type="text" maxlength="" id="initial">
+            </div>
+            <div class="result">
+                <input class="senha" type="text" readonly>
+                <button class="copy">
+                    Copiar
+                </button>
+            </div>
+            <div class="strong">
+                <p class="strong-password"> Segurança da senha: </p>
+                <button class="color">FORTE</button>
+            </div>
+            <div class="length">
+                <label for="in" class="label">Tamanho da senha: </label>
+                <input id="in" type="number" max="20" min="10" value="10" class="input">
+            </div>
+            <div class="check-boxes">
+                <input type="checkbox" id="letras" class="checks">
+                <label for="letras">Incluir letras</label>
+                
+                <input type="checkbox" id="numeros" class="checks">
+                <label for="numeros">Incluir números</label>
+
+                <input type="checkbox" id="simbolos" class="checks">
+                <label for="simbolos">Incluir símbolos</label>
+            </div>
+            <button class="btn">Gerar senha</button>
+            
+        </div>
+        
+            
+        
+        
+    </main>
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>

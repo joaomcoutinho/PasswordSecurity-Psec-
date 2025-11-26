@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+
+
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(15, 10, 30);
+    color: rgb(53, 49, 56);
+    font-weight: bold;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+
+    background-color:rgb(4, 161, 41);
+    width: 500px;
+    height: 500px;
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+.btn {
+    background-color:#083ff19f;
+    border-radius: 20px;
+    padding: 20px;
+    border: none;
+    color: whitesmoke;
+    font-weight: bold;
+    width: 400px;
+    cursor: pointer;
+}
+
+.input {
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 20px;
+}
+
+.length {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.label {
+    font-size: 18px;
+}
+
+.check-boxes {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    
+}
+
+#letras, #numeros, #simbolos {
+    cursor: pointer;
+    width: 18px
+}
+
+.senha {
+    border-radius: 5px;
+    padding: 8px;
+    width: 200px;
+    outline: none;
+}
+
+.copy {
+    padding: 8px 12px;
+    background-color: rgb(224, 219, 219);
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.result {
+    display: flex;
+}
+
+.color {
+    background-color: green;
+    border-radius: 20px;
+    width: 350px;
+    color: white;
+    border: none;
+    
+}
+
+
+.user {
+    display: flex;
+    gap: 20px;
+
+    #initial {
+        border-radius: 5px;
+        text-decoration: none;
+        outline: none;
+    }
+}
+
